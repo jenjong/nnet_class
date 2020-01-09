@@ -16,8 +16,8 @@ library(keras)
 install_keras()
 
 
-# Note: after intallation, please check the following code! 
-# if it fails, please the installation of Keras R in google!
+# Note: after installation, please check the following code! 
+# if it fails, please see the installation of Keras R in google!
 library(keras) 
 mnist <- dataset_mnist()
 x_train <- mnist$train$x
